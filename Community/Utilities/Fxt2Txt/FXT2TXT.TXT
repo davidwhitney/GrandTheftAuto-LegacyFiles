@@ -1,0 +1,39 @@
+fxt2txt.exe, txt2fxt.exe
+V1.1 DOS Freeware
+written 12/97 by Michael Mendelsohn (mendel@informatik.uni-bremen.de)
+
+Make your own GTA Messages!
+
+This pair of Programs converts "Grand Theft Auto"
+*.FXT - Files into *.TXT Files and back.
+
+*.FXT Files can be found in the GTADATA and GTADOS/DATA
+		directories and contain the program messages
+		(including pager, phone, help texts, and more).
+*.TXT Files use the ISO Charset and can be viewed
+		(and edited) with any Windows Editor. With luck,
+		the edited files will still work with the game.
+
+Usage Example:
+	cd gta/gtadata
+	copy english.fxt english.old
+	fxt2txt < english.fxt > english.txt
+	edit english.txt
+	txt2fxt < english.txt > english.fxt
+	cd ..
+	gta
+
+CAUTION: Always use "< infile" input redirection !
+If you forget this by mistake, hit Ctrl-Z , then Enter to quit.
+
+Files in Archive:
+You should have received the following files:
+FXT2TXT  EXE        39.660  14.12.97  19:58 converts FXT to TXT
+FXT2TXT  CPP           761  14.12.97  19:55 C++ Source Code (I use BCC 4.5)
+FXT      BAT           176  08.12.97  23:11 how to convert files in GTADATA
+TXT2FXT  EXE        39.756  14.12.97  19:56 converts TXT back to FXT
+FXT2TXT  TXT         1.338  14.12.97  20:24 this info file
+TXT2FXT  CPP           821  14.12.97  20:04 C++ Source Code
+
+Enjoy!
+

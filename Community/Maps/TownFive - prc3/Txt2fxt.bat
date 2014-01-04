@@ -1,0 +1,1 @@
+txt2fxt < english.txt > english.fxt
